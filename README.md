@@ -1,13 +1,13 @@
 # 😊 ExpressiFy – Emotion-Based Content Recommendation System Driven by Facial Recognition
 
-> 🎬 Watch what suits your mood. Real-time emotion detection meets personalized content recommendation.
---- Because sometimes we spend hours scrolling… and still can’t find something that matches our mood.
+> 🎬 Watch what suits your mood. Real-time emotion detection meets personalized content recommendation. Because sometimes we spend hours scrolling… and still can’t find something that matches our mood.
 
 ## 🧠 About the Project
 
 **ExpressiFy** is an intelligent content recommendation system powered by real-time **facial emotion detection**. Built with deep learning and computer vision, it captures your current emotional state through your webcam and recommends **movies** that align with your mood.
 
-Traditional platforms suggest content based on your **past**. ExpressiFy recommends based on your **present.**
+Traditional platforms suggest content based on your **past**. Expressify recommends based on your **present**.
+
 ---
 
 ## 💡 Why ExpressiFy?
