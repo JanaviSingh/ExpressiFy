@@ -1,4 +1,3 @@
-```markdown
 # 😊 ExpressiFy – Emotion-Based Content Recommendation System Driven by Facial Recognition
 
 > 🎬 * Watch what suits your mood. Real-time emotion detection meets personalized content recommendation.
@@ -160,4 +159,3 @@ If you found this project helpful:
 
 > "When tech understands how you *feel*, it becomes human."
 > — *Team ExpressiFy*
-```
