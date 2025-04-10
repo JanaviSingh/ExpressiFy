@@ -22,13 +22,12 @@
 
 ## 🧠 How It Works
 
-```mermaid
 flowchart TD
 A[Webcam Input] --> B[Facial Emotion Detection (CNN Model)]
 B --> C[Detected Emotion (e.g., Happy, Sad)]
 C --> D[Recommendation Engine (Flask + OMDb API)]
 D --> E[Display Personalized Movies/Music on Web UI]
-```
+
 
 ---
 
