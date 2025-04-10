@@ -63,13 +63,13 @@ ExpressiFy/
 │
 ├── static/                 # CSS and JS files
 ├── templates/              # HTML files
-├── dataset/                # FER-2013 based
 ├── model/                  # Trained CNN model
 ├── emotion_detector.py     # Emotion detection logic (OpenCV + CNN)
 ├── recommender.py          # Maps emotion to content category
 ├── app.py                  # Flask server
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+├── dataset/                # FER-2013 based (Download from below link)
 ```
 
 ---
@@ -81,6 +81,7 @@ ExpressiFy/
 - 📸 35,887 grayscale images (48x48 pixels)
 - 🏷️ 7 Emotion Classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 - ✅ Pre-labeled, diverse, robust for training deep models
+- Link - https://www.kaggle.com/datasets/msambare/fer2013
 
 ---
 
