@@ -1,7 +1,7 @@
 # 😊 ExpressiFy – Emotion-Based Content Recommendation System Driven by Facial Recognition
 
-> 🎬 * Watch what suits your mood. Real-time emotion detection meets personalized content recommendation.
---- Because sometimes we spend hours scrolling… and still can’t find something that matches our mood.*
+> 🎬 Watch what suits your mood. Real-time emotion detection meets personalized content recommendation.
+--- Because sometimes we spend hours scrolling… and still can’t find something that matches our mood.
 
 ## 🧠 About the Project
 
@@ -46,15 +46,15 @@ That’s the problem **ExpressiFy** solves. With a smile, a frown, or a puzzled 
 
 ## 🧠 How It Works
 
-```mermaid
-flowchart TD
-    A[Webcam Input] --> B[Facial Emotion Detection (CNN Model)]
-    B --> C[Detected Emotion (e.g., Happy, Sad)]
-    C --> D[Recommendation Engine (Flask + OMDb API)]
-    D --> E[Display Personalized Movies/Music on Web UI]
 ```
-
----
+ExpressiFy/
+│
+├── Webcam Input
+├── Facial Emotion Detection (CNN Model)
+├── Detected Emotion (e.g., Happy, Sad)
+├── Recommendation Engine (Flask + OMDb API)
+├── Display Personalized Movies on Web UI
+```
 
 ## 🗂️ Project Structure
 
@@ -137,12 +137,6 @@ ExpressiFy/
 |----------------|
 | Janavi Singh   | 
 | Sakshi Sinha   | 
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
