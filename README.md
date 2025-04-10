@@ -24,8 +24,7 @@
 
 ```mermaid
 flowchart TD
-0 --> A[Webcam Input]
-A --> B[Facial Emotion Detection (CNN Model)]
+A[Webcam Input] --> B[Facial Emotion Detection (CNN Model)]
 B --> C[Detected Emotion (e.g., Happy, Sad)]
 C --> D[Recommendation Engine (Flask + OMDb API)]
 D --> E[Display Personalized Movies/Music on Web UI]
@@ -66,15 +65,17 @@ Traditional platforms suggest content based on your past. **ExpressiFy** recomme
 
 ```
 ExpressiFy/
-│
+│   
 ├── static/                 # CSS, JS, Images
 ├── templates/              # HTML templates
+├── dataset/                # FER-2013 Dataset
 ├── model/                  # Trained CNN Model
 ├── app.py                  # Flask backend
 ├── emotion_detector.py     # Webcam & model inference
 ├── recommender.py          # Content mapping logic
 ├── README.md               # Documentation
 └── requirements.txt        # Dependencies
+
 ```
 
 ---
@@ -135,8 +136,8 @@ ExpressiFy/
 
 ## 👩‍💻 Authors
 
-| Name | Email |
-|------|-------|
+| Name |
+|--------------|
 | Janavi Singh |
 | Sakshi Sinha | 
 
