@@ -19,7 +19,7 @@ except Exception as e:
     model = None
 
 emotions = ["Anger", "Neutral", "Fear", "Happy", "Sadness", "Surprise", "Disgust"]
-OMDB_API_KEY = '1769e094'
+OMDB_API_KEY = 'Your API Key'
 
 # Emotion to genre mapping
 emotion_keywords = {
